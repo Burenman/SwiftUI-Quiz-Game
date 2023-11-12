@@ -11,7 +11,7 @@ import SwiftUI
 struct BizQuizApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(gameManagerVM: GameManagerVM())
         }
     }
 }
